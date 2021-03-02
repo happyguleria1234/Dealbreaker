@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MightyZeo_i.ttf">
+            <string>MightyZeoItalic</string>
+        </array>
+        <array key="ProximaNova-Regular.ttf">
+            <string>ProximaNova-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ChatTextMessageView" customModule="the_Good_to_Know" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="430" height="131"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oHF-uq-Pnd">
+                    <rect key="frame" x="10" y="5" width="410" height="106"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="16"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                </textView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kx8-oK-t8t">
+                    <rect key="frame" x="10" y="111" width="410" height="10"/>
+                    <fontDescription key="fontDescription" name="MightyZeoItalic" family="Mighty Zeo" pointSize="8"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="oHF-uq-Pnd" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="CHW-fp-vav"/>
+                <constraint firstItem="oHF-uq-Pnd" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="5" id="PVU-mY-uRD"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="oHF-uq-Pnd" secondAttribute="trailing" constant="10" id="QNf-Zi-sLI"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Kx8-oK-t8t" secondAttribute="bottom" constant="10" id="Tik-Cc-nnh"/>
+                <constraint firstItem="Kx8-oK-t8t" firstAttribute="trailing" secondItem="oHF-uq-Pnd" secondAttribute="trailing" id="hJS-PJ-WO5"/>
+                <constraint firstItem="Kx8-oK-t8t" firstAttribute="leading" secondItem="oHF-uq-Pnd" secondAttribute="leading" id="vog-yn-Ms1"/>
+                <constraint firstItem="Kx8-oK-t8t" firstAttribute="top" secondItem="oHF-uq-Pnd" secondAttribute="bottom" id="yXl-MW-31q"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="textMessageLbl" destination="oHF-uq-Pnd" id="W9L-ES-kMe"/>
+                <outlet property="timeLbl" destination="Kx8-oK-t8t" id="EuC-of-aV7"/>
+            </connections>
+            <point key="canvasLocation" x="35.625" y="-211.79577464788733"/>
+        </view>
+    </objects>
+</document>

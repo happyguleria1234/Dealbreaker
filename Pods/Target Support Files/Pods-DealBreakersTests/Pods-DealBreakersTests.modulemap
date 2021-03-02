@@ -1,0 +1,6 @@
+framework module Pods_DealBreakersTests {
+  umbrella header "Pods-DealBreakersTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

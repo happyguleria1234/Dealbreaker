@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ProximaNova-Semibold.ttf">
+            <string>ProximaNova-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="111" id="2WH-ze-ODV" customClass="EditQuestionHeader" customModule="the_good_to_know" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="422" height="111"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2WH-ze-ODV" id="ten-TW-dep">
+                <rect key="frame" x="0.0" y="0.0" width="422" height="111"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kKi-zG-UIF">
+                        <rect key="frame" x="0.0" y="17.5" width="422" height="76.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cct-6A-X9X">
+                                <rect key="frame" x="-21.5" y="10" width="465" height="0.0"/>
+                                <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B42-QC-bZY">
+                                <rect key="frame" x="25" y="13" width="372" height="0.0"/>
+                                <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="B42-QC-bZY" firstAttribute="top" secondItem="Cct-6A-X9X" secondAttribute="bottom" constant="3" id="CNC-Tt-YUK"/>
+                            <constraint firstItem="Cct-6A-X9X" firstAttribute="width" secondItem="kKi-zG-UIF" secondAttribute="width" constant="43" id="FJc-nD-dPu"/>
+                            <constraint firstItem="B42-QC-bZY" firstAttribute="centerX" secondItem="kKi-zG-UIF" secondAttribute="centerX" id="Ie6-sg-Jgb"/>
+                            <constraint firstItem="Cct-6A-X9X" firstAttribute="centerX" secondItem="kKi-zG-UIF" secondAttribute="centerX" id="Jeq-do-Z5L"/>
+                            <constraint firstItem="Cct-6A-X9X" firstAttribute="top" secondItem="kKi-zG-UIF" secondAttribute="top" constant="10" id="kYD-xM-9Ud"/>
+                            <constraint firstItem="B42-QC-bZY" firstAttribute="width" secondItem="kKi-zG-UIF" secondAttribute="width" multiplier="0.8" constant="34.200000000000003" id="xHM-aV-7CU"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="kKi-zG-UIF" firstAttribute="height" secondItem="ten-TW-dep" secondAttribute="height" multiplier="0.689189" id="Q3a-we-eCt"/>
+                    <constraint firstItem="kKi-zG-UIF" firstAttribute="centerX" secondItem="ten-TW-dep" secondAttribute="centerX" id="Qd6-Mt-FfX"/>
+                    <constraint firstItem="kKi-zG-UIF" firstAttribute="centerY" secondItem="ten-TW-dep" secondAttribute="centerY" id="Tqp-7D-BAe"/>
+                    <constraint firstItem="kKi-zG-UIF" firstAttribute="width" secondItem="ten-TW-dep" secondAttribute="width" id="sEC-3A-8ZM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="optionName" destination="Cct-6A-X9X" id="eeW-a1-prr"/>
+                <outlet property="typeLabel" destination="B42-QC-bZY" id="smz-Q9-dy0"/>
+            </connections>
+            <point key="canvasLocation" x="104.34782608695653" y="45.200892857142854"/>
+        </tableViewCell>
+    </objects>
+</document>
