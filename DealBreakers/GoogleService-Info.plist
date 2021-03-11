@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>472332040509-6opqmg948bfre5jomhh6koqmk0oo920q.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.472332040509-6opqmg948bfre5jomhh6koqmk0oo920q</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>472332040509-bk9hu3q187uvlnbnkimm2fj0h6rfhr01.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBoWSJKP-aRtVXgn1TKTNS8iVcC-fFao2Y</string>
+	<key>GCM_SENDER_ID</key>
+	<string>472332040509</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.thegoodtoknow.app</string>
+	<key>PROJECT_ID</key>
+	<string>thegoodtoknow-1df1e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>thegoodtoknow-1df1e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:472332040509:ios:3e439bffd55cb82e1a6d54</string>
+	<key>DATABASE_URL</key>
+	<string>https://thegoodtoknow-1df1e.firebaseio.com</string>
+    
+    <key>CFBundleURLTypes</key>
+      <array>
+        <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>fb625153038338777</string>
+        </array>
+        </dict>
+      </array>
+      <key>FacebookAppID</key>
+      <string>464668784347028</string>
+      <key>FacebookDisplayName</key>
+      <string>The Good to Know</string>
+      
+      <key>LSApplicationQueriesSchemes</key>
+         <array>
+           <string>fbapi</string>
+           <string>fbapi20130214</string>
+           <string>fbapi20130410</string>
+           <string>fbapi20130702</string>
+           <string>fbapi20131010</string>
+           <string>fbapi20131219</string>
+           <string>fbapi20140410</string>
+           <string>fbapi20140116</string>
+           <string>fbapi20150313</string>
+           <string>fbapi20150629</string>
+           <string>fbapi20160328</string>
+           <string>fbauth</string>
+           <string>fb-messenger-share-api</string>
+           <string>fbauth2</string>
+           <string>fbshareextension</string>
+         </array>
+      
+</dict>
+</plist>

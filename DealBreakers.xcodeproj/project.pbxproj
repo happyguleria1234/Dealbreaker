@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1070B6DF6F7563DBBDB77BF5 /* Pods_DealBreakers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6489209110BD2AB93F4BF22E /* Pods_DealBreakers.framework */; };
+		1817BDB625FA0D70000D2193 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1817BDB525FA0D70000D2193 /* GoogleService-Info.plist */; };
 		18F178CE2408EE8A008AE97D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F178CD2408EE8A008AE97D /* AppDelegate.swift */; };
 		18F178D52408EE8B008AE97D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F178D42408EE8B008AE97D /* Assets.xcassets */; };
 		18F178D82408EE8B008AE97D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F178D62408EE8B008AE97D /* LaunchScreen.storyboard */; };
@@ -48,7 +49,6 @@
 		2F7DFE0F241F9D4E0092ECAE /* AddUserdetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7DFE0E241F9D4E0092ECAE /* AddUserdetailsVC.swift */; };
 		2FD17686240E74C20075E84A /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD17685240E74C20075E84A /* EditProfileVC.swift */; };
 		2FD17689240E8D710075E84A /* MatchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD17688240E8D710075E84A /* MatchVC.swift */; };
-		7C1DA26E251E422C00346CEF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C1DA26D251E422C00346CEF /* GoogleService-Info.plist */; };
 		7C23E9AC24498E85005A7B99 /* AddImagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C23E9AB24498E85005A7B99 /* AddImagesVC.swift */; };
 		7C34273E2428915200875234 /* ContactUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C34273D2428915200875234 /* ContactUsVC.swift */; };
 		7C3591BB2460328D0046D857 /* Help&SupprtVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3591BA2460328D0046D857 /* Help&SupprtVC.swift */; };
@@ -140,6 +140,7 @@
 
 /* Begin PBXFileReference section */
 		148692D9BF5023AB0CFA4FB2 /* Pods_DealBreakers_DealBreakersUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DealBreakers_DealBreakersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1817BDB525FA0D70000D2193 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		18F178CA2408EE8A008AE97D /* the Good to Know.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "the Good to Know.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F178CD2408EE8A008AE97D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18F178D42408EE8B008AE97D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -192,7 +193,6 @@
 		3FE60AF3A2B2D9BA54D97238 /* Pods_DealBreakersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DealBreakersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		514CD2DF0B444BF5E97FED7E /* Pods-DealBreakers-DealBreakersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DealBreakers-DealBreakersUITests.release.xcconfig"; path = "Target Support Files/Pods-DealBreakers-DealBreakersUITests/Pods-DealBreakers-DealBreakersUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6489209110BD2AB93F4BF22E /* Pods_DealBreakers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DealBreakers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C1DA26D251E422C00346CEF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Splaish ios cuts/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7C23E9AB24498E85005A7B99 /* AddImagesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddImagesVC.swift; sourceTree = "<group>"; };
 		7C34273D2428915200875234 /* ContactUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsVC.swift; sourceTree = "<group>"; };
 		7C3591BA2460328D0046D857 /* Help&SupprtVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Help&SupprtVC.swift"; sourceTree = "<group>"; };
@@ -299,7 +299,7 @@
 				18F178CD2408EE8A008AE97D /* AppDelegate.swift */,
 				18F178D42408EE8B008AE97D /* Assets.xcassets */,
 				18F178D92408EE8B008AE97D /* Info.plist */,
-				7C1DA26D251E422C00346CEF /* GoogleService-Info.plist */,
+				1817BDB525FA0D70000D2193 /* GoogleService-Info.plist */,
 			);
 			path = DealBreakers;
 			sourceTree = "<group>";
@@ -729,9 +729,9 @@
 				8815910924A9E2D90056F0EA /* MightyZeo_i.ttf in Resources */,
 				2F0997D924092F8800405FDC /* ProximaNovaT-Thin.ttf in Resources */,
 				2F0997D524092F7C00405FDC /* ProximaNova-Extrabld.ttf in Resources */,
-				7C1DA26E251E422C00346CEF /* GoogleService-Info.plist in Resources */,
 				7C5EAF8D2435E5E300512284 /* PKCCropViewController.xib in Resources */,
 				2F0997D824092F8600405FDC /* ProximaNova-Semibold.ttf in Resources */,
+				1817BDB625FA0D70000D2193 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1087,10 +1087,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DealBreakers/DealBreakers.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 65;
-				DEVELOPMENT_TEAM = 29974887DA;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DealBreakers/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1100,7 +1100,7 @@
 				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.thegoodtoknow.app;
 				PRODUCT_NAME = "the Good to Know";
-				PROVISIONING_PROFILE_SPECIFIER = thegoodtoknow_13mar2020_dist;
+				PROVISIONING_PROFILE_SPECIFIER = "thegoodtoknow_28 july2020_dev";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1112,7 +1112,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DealBreakers/DealBreakers.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 65;
 				DEVELOPMENT_TEAM = 29974887DA;
@@ -1125,7 +1125,7 @@
 				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.thegoodtoknow.app;
 				PRODUCT_NAME = "the Good to Know";
-				PROVISIONING_PROFILE_SPECIFIER = thegoodtoknow_13mar2020_dist;
+				PROVISIONING_PROFILE_SPECIFIER = "thegoodtoknow_28 july2020_dev";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
