@@ -1239,7 +1239,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rxh-mW-C7I">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="637.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="658"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lg" translatesAutoresizingMaskIntoConstraints="NO" id="0Ps-ZC-bPy">
                                                 <rect key="frame" x="88" y="20" width="144" height="51"/>
@@ -1253,14 +1253,14 @@
                                                     <constraint firstAttribute="width" secondItem="A02-eI-0xK" secondAttribute="height" multiplier="320:357" id="dRu-cX-5gJ"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Please answer the questions firstly to complete registration process. So that we can find best match for you&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AKP-nP-Q06">
-                                                <rect key="frame" x="20" y="468" width="280" height="62.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First answer the following questions so that we can find the best match for you. No one will ever see your answers." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AKP-nP-Q06">
+                                                <rect key="frame" x="20" y="468" width="280" height="83"/>
                                                 <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xYW-SL-kfn">
-                                                <rect key="frame" x="131.5" y="550.5" width="57" height="57"/>
+                                                <rect key="frame" x="131.5" y="571" width="57" height="57"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="xYW-SL-kfn" secondAttribute="height" multiplier="1:1" id="yJh-WW-bbE"/>
                                                 </constraints>
@@ -1330,13 +1330,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Questions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqT-cs-zJq">
-                                <rect key="frame" x="24" y="57" width="272" height="33"/>
+                                <rect key="frame" x="24" y="57" width="272" height="31.5"/>
                                 <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="27"/>
                                 <color key="textColor" red="0.99003082509999996" green="0.31988662480000002" blue="0.48417621849999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ni0-mJ-eu0">
-                                <rect key="frame" x="24" y="95.5" width="272" height="430.5"/>
+                                <rect key="frame" x="24" y="94" width="272" height="432"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="OptionstableViewCell" rowHeight="54" id="9Aq-zf-U9H" customClass="OptionstableViewCell" customModule="the_Good_to_Know" customModuleProvider="target">
@@ -1353,7 +1353,7 @@
                                                             <rect key="frame" x="0.0" y="0.0" width="272" height="43"/>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fbz-zZ-l9y">
-                                                            <rect key="frame" x="13.5" y="10.5" width="245" height="22"/>
+                                                            <rect key="frame" x="13.5" y="11" width="245" height="21"/>
                                                             <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="18"/>
                                                             <color key="textColor" red="0.57414853570000002" green="0.57416242360000003" blue="0.57415497299999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -1402,7 +1402,7 @@
                                 </connections>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kaN-lh-FBV">
-                                <rect key="frame" x="0.0" y="90" width="320" height="5.5"/>
+                                <rect key="frame" x="0.0" y="88.5" width="320" height="5.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
