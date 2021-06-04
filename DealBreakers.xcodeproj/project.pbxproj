@@ -1089,10 +1089,10 @@
 				CODE_SIGN_ENTITLEMENTS = DealBreakers/DealBreakers.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 68;
+				CURRENT_PROJECT_VERSION = 71;
 				DEVELOPMENT_TEAM = 29974887DA;
 				INFOPLIST_FILE = DealBreakers/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1100,7 +1100,7 @@
 				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.thegoodtoknow.app;
 				PRODUCT_NAME = "the Good to Know";
-				PROVISIONING_PROFILE_SPECIFIER = thegoodtoknow_28jul2020_dist;
+				PROVISIONING_PROFILE_SPECIFIER = "thegoodtoknow 24 Apil 2021 Dist";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1114,10 +1114,10 @@
 				CODE_SIGN_ENTITLEMENTS = DealBreakers/DealBreakers.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 68;
+				CURRENT_PROJECT_VERSION = 71;
 				DEVELOPMENT_TEAM = 29974887DA;
 				INFOPLIST_FILE = DealBreakers/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1125,7 +1125,7 @@
 				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.thegoodtoknow.app;
 				PRODUCT_NAME = "the Good to Know";
-				PROVISIONING_PROFILE_SPECIFIER = thegoodtoknow_28jul2020_dist;
+				PROVISIONING_PROFILE_SPECIFIER = "thegoodtoknow 24 Apil 2021 Dist";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

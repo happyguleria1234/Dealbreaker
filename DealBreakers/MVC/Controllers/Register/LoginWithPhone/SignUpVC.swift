@@ -135,7 +135,7 @@ extension UIViewController {
     
     func ValidatesData(strMessage: String)
     {
-        let alert = UIAlertController(title: "Colert", message: strMessage, preferredStyle: UIAlertController.Style.alert)
+        let alert = UIAlertController(title: Constant.shared.appTitle, message: strMessage, preferredStyle: UIAlertController.Style.alert)
         alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
         self.present(alert, animated: true, completion: nil)
     }

@@ -3897,6 +3897,14 @@
             <point key="canvasLocation" x="1013" y="2244"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="9Hh-lk-znK">
+            <size key="intrinsicContentSize" width="-1" height="65"/>
+        </designable>
+        <designable name="SOL-JA-bo2">
+            <size key="intrinsicContentSize" width="-1" height="65"/>
+        </designable>
+    </designables>
     <resources>
         <image name="SETTING" width="560" height="60"/>
         <image name="aroow" width="33" height="19"/>

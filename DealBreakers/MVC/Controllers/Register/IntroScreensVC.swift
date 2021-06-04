@@ -11,7 +11,7 @@ import UIKit
 class IntroScreensVC: UIViewController {
 
     @IBOutlet weak var IntroScreenCollectionView: UICollectionView!
-    var imgArray = ["content-1","content-2","content-3","content-4","content-5","content-6","content-7","content-8"]
+    var imgArray = ["content-1","content-9","content-3","content-4","content-5","content-6","content-7","content-8"]
     var currentIndex = Int()
     override func viewDidLoad() {
         super.viewDidLoad()

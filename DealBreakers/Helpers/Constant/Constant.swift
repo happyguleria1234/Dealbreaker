@@ -14,8 +14,9 @@ class Constant: NSObject {
     
 //    let baseUrl = "https://www.dharmani.com/DealBreakers/"
 //    let baseUrl = "http://thegoodtoknow.com/WebServices/"
-    let baseUrl = "http://34.67.140.166/DealBreakers/"
-
+//    let baseUrl = "http://34.67.140.166/DealBreakers/"
+   
+    let baseUrl = "http://app.thegoodtoknow.com/DealBreakers/"
     
     let appTitle  = "The Good to Know"
     
