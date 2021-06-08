@@ -53,6 +53,11 @@ class AddUserdetailsVC: UIViewController ,UIPickerViewDelegate, UIPickerViewData
         toolBar.setItems([doneButton], animated: true)
         dobTextFld.inputAccessoryView = toolBar
         dobTextFld.inputView = datePicker
+        if #available(iOS 13.4, *) {
+            self.datePicker.preferredDatePickerStyle = UIDatePickerStyle.wheels
+        } else {
+            // Fallback on earlier versions
+        }
         datePicker.maximumDate = Calendar.current.date(byAdding: .year, value: 0, to: Date())
  //       thePickerView = UIPickerView(frame: CGRect(x: 0, y: self.view.bounds.height, width: self.view.bounds.width, height: 100)) //Step 2
         
